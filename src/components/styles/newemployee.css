@@ -1,0 +1,69 @@
+.create-employe {
+    height: 100%;
+}
+
+.form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form input {
+    padding: 10px 15px;
+    margin: 5px 0;
+    width: calc(100% - 50px);
+    border-radius: 5px;
+    border: none;
+}
+
+.form-top {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form .choose-role {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form .choose-role p {
+    margin-left: 10px;
+}
+.form input[type=radio] {
+    width: 30px;
+}
+.error {
+    border: solid 1px rgb(109, 20, 20);
+    background-color: rgb(231, 112, 112);
+}
+.error::placeholder {
+    color: white;
+}
+.error-message {
+    color: rgb(219, 75, 75);
+    font-style: italic;
+}
+.form .form-btn {
+    width: 120px;
+    font-size: 17px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #49ada2;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+}
+.form .role-selection {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,20 @@
+.setting {
+    width: 70px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #49ada2;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.modify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
